@@ -8,27 +8,27 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 + **copy urls** in the same way with `alt-y`
 + **copy the output of commands** with `alt-o`
 
-## Bindings for
+## Keybindings
 
 + Scroll up/down: `alt + k` / `alt + j`
 + Copy/Paste: `alt + c` / `alt + v`
 + Zoom in / Zoom out / Default zoom: `alt + shift + PageUp` / `alt + shift + PageDown` / `alt + Home`
 
-## Pretty stuff
+## Theme and fonts
 
 + Compatibility with `Xresources` and `pywal` for dynamic colors.
 + Almost default tty-colors. 
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your system font.
 
-## Other st patches
+## ST-patches 
 
 + Vertcenter
 + Scrollback
 + font2
 + updated to latest version 0.8.2
 
-## Installation for newbs
+## Installation
 
 ```
 git clone https://github.com/vidarandrebo/st
