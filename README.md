@@ -18,7 +18,7 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 ## Pretty stuff
 
 + Compatibility with `Xresources` and `pywal` for dynamic colors.
-+ Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.
++ Almost default tty-colors. 
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your system font.
 
@@ -32,12 +32,11 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 ## Installation for newbs
 
 ```
-git clone https://github.com/LukeSmithxyz/st
+git clone https://github.com/vidarandrebo/st
 cd st
 sudo make install
 ```
 
-Users of Arch-based distros can also install it from the AUR as [st-luke-git](https://aur.archlinux.org/packages/st-luke-git/).
 
 Obviously, `make` is required to build. `fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  It might be obvious, but `libX11` and `libXft` are required as well. Chances are, you have all of this installed already.
 
@@ -61,7 +60,7 @@ For example, you can define your desired fonts, transparency or colors:
 The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque).
 
 ### Colors
-Colors are set to almost the default tty color-scheme(dark and light blue swtiched for better readability)
+Colors are set to almost the default tty color-scheme(dark and light blue switched for better readability)
 
 To be clear about the color settings:
 
@@ -77,7 +76,3 @@ If st crashes when viewing emojis, install [libxft-bgra](https://aur.archlinux.o
 
 Note that some special characters may appear truncated if too wide. You might want to manually set your prefered emoji/special character font to a lower size in the `config.h` file to avoid this. By default, JoyPixels is used at a smaller size than the usual text.
 
-## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
