@@ -1,4 +1,4 @@
-# Luke's build of st - the simple (suckless) terminal
+# Vidar's fork of Luke's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
 
@@ -61,6 +61,7 @@ For example, you can define your desired fonts, transparency or colors:
 The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque).
 
 ### Colors
+Colors are set to almost the default tty color-scheme(dark and light blue swtiched for better readability)
 
 To be clear about the color settings:
 
